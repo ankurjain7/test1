@@ -1,0 +1,5 @@
+You'll need to add the "Auto Update Services" and "Auto Update UI" modules to your application.
+
+To do this, right click your NetBeans application project node and select the Properties menu item. In the properties panel select the Libraries category. In the Platform Modules list expand the platform and check both the "Auto Update Services" and "Auto Update UI" nodes. This will add the "Plugins" menu item and coresponding UI elements (Plugins panel).
+
+After you've completed the above you'll need to add an Update Center to one of your modules. An Update Center is just a layer file entry that points to an updates.xml file's URL (for example, http://example.com/updates.xml). Once you've added an Update Center to your application, the Updates > Available Plugins panel will show all of the modules registered in your Update Center.

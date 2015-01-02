@@ -1,0 +1,15 @@
+to intialise git folder = git inti
+add all file to git = git add . 
+to commit any time= git commit -m "this is commit"
+to check all commit  = git log
+to check commit of specific person = git log --author="name"
+to get status  = git status
+to add specific file = git add second.txt
+to get diff of file  = git diff
+to get diff after staging  = git diff --staged
+delete file= git tm third.txt
+rename file = git mv second.txt pudding.txt
+move file to folder = git mv pudding.txt my/p.txt
+to get back modified fiel = git checkout -- modified.html
+to previous commit  = git checkout 01e7dba -- index.html
+
